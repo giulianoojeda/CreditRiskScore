@@ -1,0 +1,65 @@
+# Virtual Environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyBuilder
+target/
+
+# PyCharm and other IDEs
+.idea/
+*.iml
+*.iws
+*.suo
+*.user
+*.sln
+*.sln.docstates
+*.dbmdl
+.vs/
+*.dbmdl
+*.rdb
+
+# Environments variables and secrets
+.env
+*.key
+*.pem
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dataset folder
+dataset/

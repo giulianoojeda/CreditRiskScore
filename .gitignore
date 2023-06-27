@@ -61,5 +61,5 @@ target/
 ehthumbs.db
 Thumbs.db
 
-# Dataset folder
-dataset/
+# ignore everything inside dataset but not the folder itself
+dataset/*

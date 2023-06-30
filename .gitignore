@@ -62,4 +62,4 @@ ehthumbs.db
 Thumbs.db
 
 # ignore everything inside dataset but not the folder itself
-dataset/*
+dataset/application_train_aai.csv

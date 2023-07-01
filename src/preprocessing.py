@@ -57,7 +57,7 @@ def preprocess_data(
         ordinal_encoder.fit(working_train_df[ordinal_cols])
     if one_hot_cols:
         one_hot_encoder.fit(working_train_df[one_hot_cols])
-    
+
     # Transform all the datasets
     working_train_df = transform_dataframe(
         working_train_df, ordinal_encoder, one_hot_encoder, ordinal_cols, one_hot_cols

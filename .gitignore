@@ -63,3 +63,6 @@ Thumbs.db
 
 # ignore everything inside dataset but not the folder itself
 dataset/application_train_aai.csv
+
+# ignore .vscode
+.vscode/
